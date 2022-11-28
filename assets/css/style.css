@@ -6,24 +6,17 @@
     
 }
 .button{
-    height: 35px;
-    /* padding: 20px; */
     width: 100px;
+    height: 35px;
     background-color: #48a9e3;
-    position: relative;
-    padding: 0 !important;
+    text-align: center;
+    line-height: 35px;
 }
-.button a {
-    border: 1px solid grey;
-    /* background-color: #48a9e3; */
-    color:#fff;
-    /* padding: 20px; */
-    width: 100% !important;
-    height: 100% !important;
-    position: absolute;
+.button a{
     text-decoration: none;
-    /* margin-left: 10px; */
+    color: #fff;
 }
+
 .section-right {
     background-color: #f4fafe;
     flex-wrap: wrap;
@@ -36,10 +29,12 @@
     padding-top: 20px;
     padding-left: 10px;
 }
+.under-logo{
+    padding: 20px 15px 20px 15px;
+}
 .under-logo .inputs{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     height: 70px;
-    padding: 20px;
 }
 .under-logo div input{
     width: 100%;
